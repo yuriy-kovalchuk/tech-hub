@@ -1,0 +1,22 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude Terraform plan output
+*.tfplan
+
+
+# .terraform directories anywhere in the project
+**/.terraform/*
+
+# Backup files
+*.backup
+
+# Sensitive files
+.terraform.lock.hcl
+
+# Ignore all .pem files (SSH keys)
+*.pem

@@ -1,0 +1,7 @@
+---
+- name: Install and configure Nginx with Hello World
+  hosts: webservers
+  become: yes
+
+  roles:
+    - nginx
