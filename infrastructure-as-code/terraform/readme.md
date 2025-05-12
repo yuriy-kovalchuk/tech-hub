@@ -1,1 +1,0 @@
-terraform output -raw ssh_private_key > my_private_key.pem
