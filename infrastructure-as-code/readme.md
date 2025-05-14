@@ -50,3 +50,8 @@ cd infrastructure-as-code/ansible
 ```
 cd infrastructure-as-code/ansible/playbooks
 ```
+
+```
+ansible-playbook playbooks/install_nginx.yaml
+```
+
