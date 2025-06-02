@@ -20,3 +20,6 @@ crash.log
 
 # Ignore all .pem files (SSH keys)
 *.pem
+
+# Ignore all kubeconfig files
+kubeconfig.yaml
