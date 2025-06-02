@@ -58,7 +58,18 @@ DEMO 2
 
 
 ```
-kubectl -n tech-hub scale deployment/http-echo-demo --replicas 4
+kubectl apply -f apps/whoami/namespace.yaml
+kubectl apply -f apps/whoami/deployment.yaml
+kubectl apply -f apps/whoami/service.yaml
+kubectl apply -f apps/whoami/ingress.yaml
+```
+
+```
+curl -H "Host: whoami.tech-hub.demo" http://<IP>
+```
+
+```
+kubectl -n whoami scale deployment/whoami --replicas 4
 ```
 
 
