@@ -22,4 +22,4 @@ crash.log
 *.pem
 
 # Ignore all kubeconfig files
-kubeconfig.yaml
+*kubeconfig.yaml
